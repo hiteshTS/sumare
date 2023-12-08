@@ -21,7 +21,7 @@
 }
 
 .margin-top {
-    margin-top: 10px;
+    margin-top:auto;
 }
 
 h1 {
@@ -117,7 +117,7 @@ p {
 }
 
 .main-page {
-    height: 130vh;
+    height: 150vh;
     width: 100%;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -132,7 +132,7 @@ p {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: white;
 }
@@ -165,7 +165,7 @@ p {
 
   /* Style the logo image */
   .logo img {
-    width: 150px; /* Set the width of the image */
+    width: 100px; /* Set the width of the image */
     height: auto; /* Maintain the aspect ratio */
     border-radius: 5px; /* Add rounded corners to the image */
   }
@@ -201,17 +201,17 @@ p {
 
 .service-cards-section {
     margin: 30px 0px;
-    gap: 20px;
+    gap: 10px;
 }
 
 .service-card {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 33%;
-    background-color: #fcfdfd;
+    gap: 10px;
+    width: 30%;
+    background-color: #e6ebeb;
     /* background-color: rgb(245, 244, 244); */
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -298,7 +298,7 @@ p {
     margin-bottom: 20px; /* Adjust as needed */
     background-color: #e4e6e7; /* Set your desired background color */
     padding: 20px; /* Add padding for better appearance */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    border-radius: 7px; /* Optional: Add rounded corners */
 }
 
 .about-content-right {
@@ -306,10 +306,10 @@ p {
     text-align: center; /* Adjust as needed */
 }
 .about-content-right img {
-    max-width: 100%; /* Set to 100% to ensure responsiveness */
+    max-width: 50%; /* Set to 100% to ensure responsiveness */
     height: auto; /* Maintain aspect ratio */
-    width: 1200px; /* Set your desired width */
-    max-height: 900px; /* Set your desired max height */
+    width: 900px; /* Set your desired width */
+    max-height: 500px; /* Set your desired max height */
 }
 
 .primary-btn {
